@@ -17,3 +17,5 @@ data class Toma (
         val coloresToma = listOf(Color.Green,Color.Red,Color.Gray,Color.Blue)
     }
 }
+
+class InvalidTomaException(message:String):Exception(message)
